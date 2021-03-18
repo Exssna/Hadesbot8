@@ -52,19 +52,19 @@ const { limit } = require('./database/menu/limit*/
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
-const BotName = 'nabutobot'; 
+const BotName = '𝑯𝑨𝑫𝑬𝑺𝑩𝑶𝑻'; 
 const instagram = 'http://www.instagram.com/'; 
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:nabuto\n' // Nama kamu
+            + 'FN:Meu Dono^~^\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=+19255948027:+55 699373-3829\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=+558688036194:+55 86-8803-6194\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 prefix = '/','*','.'
 blocked = []
 limitawal = '999999999'
-cr = '*nabuto*'
+cr = '*sr.allison*'
 
 /*********** LOAD FILE ***********/
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
@@ -289,22 +289,22 @@ async function starts() {
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
 					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
-					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD NABUTO BOT*',
+					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD SR>ALLISON BOT*',
 					benned: 'Você para a banda, por favor, contate o proprietário para abrir sua banda',
 					ownerG: '[❗] Proprietário? Este é um recurso especial para o proprietário do bot ❌',
 					ownerB: '[❗] Proprietário? Este é um recurso especial para o proprietário do bot ❌',
-					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de nabuto. Registre-se para fazer amizade com o bot Nabuto por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar nabuto|14\n\n──「 Nabuto BOT 」──`,
+					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado no Hadesbot. Registre-se no bot Hades por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar Allison|16\n\n──「 𝑯𝑨𝑫𝑬𝑺𝑩𝑶𝑻 」──`,
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
 				}
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["+19255948027@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"+19255948027@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["+19255948027@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["+19255948027@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["+19255948027@s.whatsapp.net","559784130980@s.whatsapp.net","557599941062@s.whatsapp.net","558598669655@s.whatsapp.net","5511949051934@s.whatsapp.net","554792091566@s.whatsapp.net","558699541889@s.whatsapp.net","559294313229@s.whatsapp.net","554298653614@s.whatsapp.net"]
+			const ownerNumber = ["+558688036194@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"+558688036194@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["+558688036194@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["+558688036194@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["+558688036194@s.whatsapp.net","559784130980@s.whatsapp.net","557599941062@s.whatsapp.net","558598669655@s.whatsapp.net","5511949051934@s.whatsapp.net","554792091566@s.whatsapp.net","558699541889@s.whatsapp.net","559294313229@s.whatsapp.net","554298653614@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -750,7 +750,7 @@ if (text.includes("placa"))
 			switch(command) {
 				case 'help':
 				case 'menu':
-				case 'nabuto':
+				case 'hades':
 				case 'pika':
 					client.sendMessage(from, help(prefix), text)
 					break
@@ -1395,7 +1395,7 @@ if (text.includes("placa"))
 					reply(teks.trim())
 					await limitAdd(sender) 
 					break 
-				case 'textnabuto':
+				case 'texthades':
 					if (args.length < 1) return reply(mess.blank)
 					tels = body.slice(9)
 					if (tels.ength > 10) return reply('O texto é longo, até 9 caracteres')
@@ -1535,7 +1535,7 @@ if (text.includes("placa"))
 					for (let V of premium) {
 						teks += `│+  @${V.split('@')[0]}\n`
 					}
-					teks += `│+ Total : ${premium.length}\n╰──────*「 *NABUTOBOT* 」*────`
+					teks += `│+ Total : ${premium.length}\n╰──────*「 *𝑯𝑨𝑫𝑬𝑺𝑩𝑶𝑻* 」*────`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": premium}})
 					break
                   case 'qrcode':
@@ -1549,7 +1549,7 @@ if (text.includes("placa"))
 		        case 'wame':
                   client.updatePresence(from, Presence.composing) 
                   options = {
-                  text: `「 *LINK WHATSAPP* 」\n\n_Solicitado por_ : *@${sender.split("@s.whatsapp.net")[0]}*\n\nSeu link WhatsApp:\n\n*https://wa.me/${sender.split("@s.whatsapp.net")[0]}*\n\n*Ou*\n\n*https://api.whatsapp.com/send?phone=${sender.split("@")[0]}*\n\n*NABUTO DOMINA*`,
+                  text: `「 *LINK WHATSAPP* 」\n\n_Solicitado por_ : *@${sender.split("@s.whatsapp.net")[0]}*\n\nSeu link WhatsApp:\n\n*https://wa.me/${sender.split("@s.whatsapp.net")[0]}*\n\n*Ou*\n\n*https://api.whatsapp.com/send?phone=${sender.split("@")[0]}*\n\n*SR>ALLISON DOMINA*`,
                   contextInfo: { mentionedJid: [sender] }
                   }
                   client.sendMessage(from, options, text, { quoted: mek } )
@@ -1602,7 +1602,7 @@ if (text.includes("placa"))
                 break
 				case 'daftar':
 					client.updatePresence(from, Presence.composing)
-					if (args.length < 1) return reply(`Parameter Salah\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar NABUTO|14`)
+					if (args.length < 1) return reply(`Parameter Salah\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar Allison|16`)
 					var reg = body.slice(8)
 					var jeneng = reg.split("|")[0];
 					var umure = reg.split("|")[1];
@@ -1773,7 +1773,7 @@ if (text.includes("placa"))
 					client.sendMessage(from, pok, image, { quoted: mek, caption: `*PINTEREST*\n\*Resultado da pesquisa* : *${tels}*`})
                     await limitAdd(sender)
 					break
-                case 'nabutojokes':
+                case 'hadesjokes':
 				 data = fs.readFileSync('./src/nabutojokes.js');
                  jsonData = JSON.parse(data);
                  randIndex = Math.floor(Math.random() * jsonData.length);
@@ -2449,13 +2449,13 @@ break
                    break
 					case 'totaluser':
 					if (!isOwner) return reply(mess.only.ownerB)    
-					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOO NABUTO BOT 👑* 」\n\`\`\``
+					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOO HADES BOT 👑* 」\n\`\`\``
 					no = 0
 					for (let hehehe of user) {
 						no += 1
 						teks += `\`\`\`[${no.toString()}]\`\`\` @${hehehe.split('@')[0]}\n`
 					}
-					teks += `│+ Total de usuários : ${user.length}\n╰──────*「 *NABUTO* 」*────`
+					teks += `│+ Total de usuários : ${user.length}\n╰──────*「 *HADES* 」*────`
 					 client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": user}})
 					break
 				case 'desligar':
@@ -2975,7 +2975,7 @@ break
 					buff = await getBuffer(anu.result)
 					client.sendMessage(from, buff, image, {quoted: mek})
 					break
-				case 'textnabuto':
+				case 'texthades':
 					if (args.length < 1) return reply(mess.blank)
 					tels = body.slice(9)
 					if (tels.ength > 10) return reply('O texto é longo, até 9 caracteres')
@@ -3068,7 +3068,7 @@ break
 			    case 'owner':
 			    case 'dono':
                     client.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-                    client.sendMessage(from, 'Meu dono é esse gasoso aí tal de "nabuto"🙄, chama ele aí ele diz que é "Shitpost"',MessageType.text, { quoted: mek} )
+                    client.sendMessage(from, 'Meu dono é esse gasoso aí tal de "SR>ALLISON"🙄, chama ele aí',MessageType.text, { quoted: mek} )
                     break
                 case 'fitnah':	
 				case 'fake':          
@@ -3351,7 +3351,7 @@ break
 					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o proprietário ou digite *.Daftarvip* para adquirir o acesso Premium!' ,text, { quoted: mek })
 					me = client.user
 					uptime = process.uptime()
-					client.sendMessage(from,  `*──────────────────*\n*Nome do bot:* NABUTOBOT\n*─────────────────*\n『 *𝐕𝐈𝐏 𝐔𝐒𝐄𝐑*』\n*──────────────────*\n*•Número:* *${sender.split("@s.whatsapp.net")[0]}*\n*•Status:* *ATIVO*\n*──────────────────*\n*Status Bot:* *${kyun(uptime)}*\n\n*VOCE É UM MEMBRO PREMIUM* \n*──────────────────*` , text, { quoted: mek, })
+					client.sendMessage(from,  `*──────────────────*\n*Nome do bot:* 𝑯𝑨𝑫𝑬𝑺𝑩𝑶𝑻\n*─────────────────*\n『 *𝐕𝐈𝐏 𝐔𝐒𝐄𝐑*』\n*──────────────────*\n*•Número:* *${sender.split("@s.whatsapp.net")[0]}*\n*•Status:* *ATIVO*\n*──────────────────*\n*Status Bot:* *${kyun(uptime)}*\n\n*VOCE É UM MEMBRO PREMIUM* \n*──────────────────*` , text, { quoted: mek, })
 					break
 					case 'dellvip':
 					if (!isOwner) return reply(mess.only.ownerB)
@@ -3371,9 +3371,9 @@ break
 					client.sendMessage(from, mentioned)
 				    }
 					break
-					case 'nabutoadmin':
+					case 'hadesadmin':
 					tod = await getBuffer(`https://i.ibb.co/XDwBVDJ/1f2652c622fa.jpg`)
-					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT NABUTO ✨* 」\n*│+ wa.me/+19255948027*╰──────*「 *NABUTO* 」*────*\n\n*_SE QUER SER ADMIN DO BOT NABUTO_*\n*_Tipo /iklan_*' })
+					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT HADES ✨* 」\n*│+ wa.me/+558688036194*╰──────*「 *HADES* 」*────*\n\n*_SE QUER SER ADMIN DO BOT HADES_*\n*_Tipo /iklan_*' })
 					break
 				case 'iklan':
 					client.sendMessage(from, iklan(prefix) , text, { quoted: mek })
@@ -3382,7 +3382,7 @@ break
                     if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					sa = await getBuffer(`https://i.ibb.co/PcQ6tsB/79ac87b9358c.jpg`)
-					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/+19255948027*╰──────*「 * NABUTO* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO NABUTO BOT_*\n*_Ketik #daftarvip*' })
+					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/+558688036194*╰──────*「 * HADES* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO HADES BOT_*\n*_Ketik #daftarvip*' })
 					break
 					case 'cekmod': 
  
@@ -3450,7 +3450,7 @@ break
 				case 'bot':
 			     	memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://i.imgur.com/dPUVFF6.png`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*_Comandos basicos para bot:_*\n\n*pkg upgrade && pkg update*\n*pkg install git*\n*git clone (link da git)*\n*cd (repositório)*\n*bash install.sh*\n*npm start*\n\n*Nabuto Domina*'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*_Comandos basicos para bot:_*\n\n*pkg upgrade && pkg update*\n*pkg install git*\n*git clone (link da git)*\n*cd (repositório)*\n*bash install.sh*\n*npm start*\n\n*Sr.Allison Domina*'})
 					break
 				case 'belle3':
 					memein = await kagApi.memeindo()
@@ -3513,7 +3513,7 @@ break
 				case 'canal':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://imgur.com/gallery/xuTCBPO`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '️*canal do nabuto:*\n\n https://youtube.com/channel/UCZEtf9AlsC2zsJQwrfW-44w'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '️*canal do Sr.Allison:*\n\n ............'})
 					break
 				case 'nsfwloli1':
 					memein = await kagApi.memeindo()
@@ -3564,7 +3564,7 @@ break
 				case 'dono':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(``)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* NABUTO\n*YOUTUBE:* https://youtube.com/channel/UCZEtf9AlsC2zsJQwrfW-44w\n*WPP:* wa.me/++19255948027\n*\n\nEspero que tenham gostado do bot️'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* SR>ALLISON\n*WPP:* wa.me/++558688036194\n*\n\nEspero que tenham gostado do bot️'})
 					break
 				case 'setprefix':
 					if (args.length < 1) return
