@@ -45,6 +45,6 @@ const menu2 = (prefix) => {
 ╠➸ *${prefix}simih 0 (para desativar)*
 ╠➥ *${prefix}simi (sua mensagem)*
 ║
-╠══✪〘 *NABUTOBOT* 〙✪══`
+╠══✪〘 *𝑯𝑨𝑫𝑬𝑺𝑩𝑶𝑻* 〙✪══`
 }
 exports.menu2 = menu2
