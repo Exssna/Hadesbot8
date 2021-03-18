@@ -1,16 +1,16 @@
 const help = (prefix) => {
-	return ` 𝑩𝑶𝑻 𝑾𝑯𝑨𝑻𝑺𝑨𝑷𝑷 𝑻𝑬𝑹𝑴𝑼𝑿
+	return ` 𝑩𝑶𝑻 𝑾𝑯𝑨𝑻𝑺𝑨𝑷𝑷 𝑯𝑨𝑫𝑬𝑺𝑩𝑶𝑻
 OLÁ 😸👋 ESPERO QUE VOCÊ GOSTE DO BOT😁
 
 𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑪̧𝑶̃𝑬𝑺 𝑺𝑶𝑩𝑹𝑬 𝑶 𝑩𝑶𝑻:
 
 STATUS DO BOT: ON-LINE
 
-FEITO POR: NABUTO LS
+FEITO POR: SR>ALLISON
 
           CRIADO VIA: GIT HUB/TERMUX
 
-DONO: wa.me/+19255948027
+DONO: wa.me/+558688036194
 👆🥃SALVE O CONTATO DELE
 
   𝘼𝙌𝙐𝙄 𝙑𝘼̃𝙊 𝙀𝙎𝙏𝘼́ 𝘼𝙇𝙂𝙐𝙉𝙎 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎:
