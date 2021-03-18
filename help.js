@@ -22,7 +22,7 @@ DONO: wa.me/+558688036194
 ➛ *${prefix}toimg* [converter figurinha em imagem]
 ➛ *${prefix}wame* [link do seu whatsapp]
 ➛ *${prefix}meme* [memes aleatórios]
-➛ *${prefix}nabutojokes* [memes2]
+➛ *${prefix}hadesjokes* [memes2]
 ➛ *${prefix}tts pt* [seu texto]
 ➛ *${prefix}ping* [velocidade]
 ➛ *${prefix}owner ou dono* [info do criador]
@@ -63,7 +63,7 @@ DONO: wa.me/+558688036194
 ➛
 ➛ *${prefix}figu*
 ➛ *${prefix}toimg*
-➛ *${prefix}nabutojokes (memes aleatórios)*
+➛ *${prefix}hadesjokes (memes aleatórios)*
 ➛ *${prefix}memeindo*
 ➛ *${prefix}tts*
 ➛ *${prefix}lolih [on]*
@@ -213,7 +213,7 @@ DONO: wa.me/+558688036194
 ➛ *${prefix}moddroid [jogo/app]*
 ➛ *${prefix}xvideos [titulo]**
 ➛ *${prefix}nomegp*
-➛ *${prefix}nabutojokes (memes aleatórios)*
+➛ *${prefix}hadesjokes (memes aleatórios)*
 ➛ *${prefix}animecry*
 ➛ *${prefix}gay1*
 ➛ *${prefix}next*
@@ -221,9 +221,9 @@ DONO: wa.me/+558688036194
 ➛ *${prefix}belle [img aleatórias]*
 ➛ *${prefix}pronomeneu [texto]*
 ➛ *${prefix}hobby*
-➛ *𝗡𝗢𝗠𝗘: nabuto
-➛ *𝗪𝗣𝗣: wa.me/+556993733829
-【 NABUTO 】
+➛ *𝗡𝗢𝗠𝗘: SR>ALLISON
+➛ *𝗪𝗣𝗣: wa.me/+558688036194
+【 𝑺𝑹.𝑨𝑳𝑳𝑰𝑺𝑶𝑵 】
 ➢【 𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦 𝗗𝗘 𝗠𝗨𝗦𝗜𝗖𝗔 】
 
 ➛ *${prefix} em teste
