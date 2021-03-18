@@ -46,6 +46,6 @@ const listmenu = (prefix) => {
 ╠➸ *${prefix}simih 0 (para desativar)*
 ╠➥ *${prefix}simi (sua mensagem)*
 ║
-╠══✪〘 *NABUTOBOT* 〙✪══`
+╠══✪〘 *𝑯𝑨𝑫𝑬𝑺𝑩𝑶𝑻* 〙✪══`
 }
 exports.listmenu = listmenu
